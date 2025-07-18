@@ -135,11 +135,11 @@ const SignupPage: React.FC<SignupPageProps> = ({ onNavigate }) => {
             <div className="text-center mb-8">
               <img 
                 src="https://raw.githubusercontent.com/proxit-git/website/main/logo.png" 
-                alt="قهرمانان زندگی" 
+                alt="قهرمانان زندگی بخش" 
                 className="h-16 w-auto mx-auto mb-4 hover:scale-105 transition-transform duration-300"
               />
               <h2 className="text-3xl font-bold text-gray-900 mb-2">ثبت نام</h2>
-              <p className="text-gray-600">عضو خانواده قهرمانان زندگی شوید</p>
+              <p className="text-gray-600">عضو خانواده قهرمانان زندگی بخش شوید</p>
             </div>
             
             {errors.general && (

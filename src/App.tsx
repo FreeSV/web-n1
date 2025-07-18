@@ -117,11 +117,11 @@ function App() {
             <div className="flex items-center space-x-4 space-x-reverse">
               <img 
                 src="https://raw.githubusercontent.com/proxit-git/website/main/logo.png" 
-                alt="قهرمانان زندگی" 
+                alt="قهرمانان زندگی بخش" 
                 className="h-12 w-auto object-contain"
               />
               <div>
-                <h1 className="text-xl font-bold text-red-600">قهرمانان زندگی</h1>
+                <h1 className="text-xl font-bold text-red-600">قهرمانان زندگی بخش</h1>
                 <p className="text-sm text-gray-600">آینده‌ای روشن، امروز آغاز می‌شود</p>
               </div>
             </div>
@@ -261,7 +261,7 @@ function App() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="backdrop-blur-xl bg-white/95 rounded-3xl p-8 md:p-12 border border-white/60 shadow-3xl">
               <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-                خوش آمدید به <span className="text-red-600">قهرمانان زندگی</span>
+                خوش آمدید به <span className="text-red-600">قهرمانان زندگی بخش</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
                 آینده‌ای روشن، امروز آغاز می‌شود. ما تیمی از قهرمانان هستیم که برای ساخت دنیای بهتر تلاش می‌کنیم.
@@ -291,12 +291,12 @@ function App() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-8 text-gray-900">
-              درباره <span className="text-red-600">قهرمانان زندگی</span>
+              درباره <span className="text-red-600">قهرمانان زندگی بخش</span>
             </h2>
             
             <div className="backdrop-blur-xl bg-white/90 rounded-3xl p-8 md:p-12 border border-white/50 shadow-3xl">
               <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-                ما تیمی از افراد خلاق و پرانگیزه هستیم که با هدف ایجاد تغییرات مثبت در جامعه تشکیل شده‌ایم. 
+                ما تیمی از افراد خلاق و پرانگیزه هستیم که با هدف ایجاد تغییرات مثبت در جامعه و بخش‌های مختلف تشکیل شده‌ایم. 
                 هدف ما کمک به افراد برای رسیدن به بهترین نسخه از خودشان و ساخت آینده‌ای روشن‌تر است.
               </p>
               
@@ -413,142 +413,228 @@ function App() {
             <div className="text-center mb-16">
               <div className="backdrop-blur-xl bg-white/90 rounded-3xl p-6 border border-white/50 shadow-3xl max-w-4xl mx-auto">
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  برنامه‌ریزی دقیق و مرحله‌ای برای رسیدن به اهداف بلندمدت تیم قهرمانان زندگی. 
+                  برنامه‌ریزی دقیق و مرحله‌ای برای رسیدن به اهداف بلندمدت تیم قهرمانان زندگی بخش. 
                   هر فاز شامل اهداف مشخص، فعالیت‌های کلیدی و شاخص‌های موفقیت است.
                 </p>
               </div>
             </div>
-            
-            <div className="relative">
-              {/* Timeline Line */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-2 bg-gradient-to-b from-red-300 via-red-500 to-red-700 rounded-full shadow-lg"></div>
-              
-              {/* Phase 1 */}
-              <div className="relative flex items-center mb-16">
-                <div className="w-1/2 pr-8 text-right">
-                  <div className="backdrop-blur-xl bg-white/90 rounded-3xl p-8 border border-white/50 shadow-3xl hover:shadow-2xl transition-all">
-                    <div className="flex items-center justify-end mb-4">
-                      <div>
-                        <h3 className="text-2xl font-bold text-gray-900 mb-1">فاز اول: راه‌اندازی و پایه‌گذاری</h3>
-                        <p className="text-red-600 font-medium">تیر ۱۴۰۴ - مهر ۱۴۰۴</p>
-                      </div>
-                      <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mr-4 shadow-lg">
-                        <Play className="text-red-600" size={24} />
-                      </div>
-                    </div>
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      مرحله بنیادی پروژه که شامل تشکیل تیم اصلی، تعریف ماموریت و چشم‌انداز، و راه‌اندازی زیرساخت‌های اولیه است.
-                    </p>
-                    <div className="space-y-3">
-                      <div className="bg-red-50 p-3 rounded-xl">
-                        <h4 className="font-semibold text-gray-800 mb-1">🎯 اهداف کلیدی:</h4>
-                        <ul className="text-sm text-gray-600 space-y-1">
-                          <li>• تشکیل تیم مرکزی ۱۰ نفره</li>
-                          <li>• طراحی هویت بصری و برند</li>
-                          <li>• راه‌اندازی وب‌سایت و شبکه‌های اجتماعی</li>
-                        </ul>
-                      </div>
-                      <div className="bg-blue-50 p-3 rounded-xl">
-                        <h4 className="font-semibold text-gray-800 mb-1">📊 شاخص‌های موفقیت:</h4>
-                        <ul className="text-sm text-gray-600 space-y-1">
-                          <li>• ۵۰۰ فالوور در شبکه‌های اجتماعی</li>
-                          <li>• برگزاری ۳ جلسه آموزشی</li>
-                          <li>• تکمیل ۱۰۰٪ مستندات پروژه</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+          
+          {/* Two-Part Plans Section */}
+          <div className="grid lg:grid-cols-2 gap-12 mt-16">
+            {/* Part 1: Strategic Plans */}
+            <div className="backdrop-blur-xl bg-white/90 rounded-3xl p-8 border border-white/50 shadow-3xl">
+              <div className="text-center mb-8">
+                <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-700 rounded-full flex items-center justify-center mx-auto mb-4 shadow-xl">
+                  <Star className="text-white" size={32} />
                 </div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-red-500 rounded-full border-4 border-white shadow-xl z-10"></div>
-                <div className="w-1/2"></div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-2">برنامه‌های استراتژیک</h3>
+                <p className="text-gray-600">نقشه راه کلان و اهداف بلندمدت</p>
               </div>
               
-              {/* Phase 2 */}
-              <div className="relative flex items-center mb-16">
-                <div className="w-1/2"></div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-red-500 rounded-full border-4 border-white shadow-xl z-10"></div>
-                <div className="w-1/2 pl-8">
-                  <div className="backdrop-blur-xl bg-white/90 rounded-3xl p-8 border border-white/50 shadow-3xl hover:shadow-2xl transition-all">
-                    <div className="flex items-center mb-4">
-                      <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center ml-4 shadow-lg">
-                        <Users className="text-red-600" size={24} />
-                      </div>
-                      <div>
-                        <h3 className="text-2xl font-bold text-gray-900 mb-1">فاز دوم: گسترش و توسعه</h3>
-                        <p className="text-red-600 font-medium">آبان ۱۴۰۴ - اسفند ۱۴۰۴</p>
-                      </div>
+              <div className="space-y-6">
+                <div className="bg-gradient-to-r from-red-50 to-red-100 p-6 rounded-2xl border border-red-200">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center ml-4">
+                      <span className="text-white font-bold">۱</span>
                     </div>
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      مرحله رشد و توسعه که در آن فعالیت‌ها به سایر شهرها گسترش یافته و پروژه‌های جدید راه‌اندازی می‌شود.
-                    </p>
-                    <div className="space-y-3">
-                      <div className="bg-green-50 p-3 rounded-xl">
-                        <h4 className="font-semibold text-gray-800 mb-1">🚀 اهداف کلیدی:</h4>
-                        <ul className="text-sm text-gray-600 space-y-1">
-                          <li>• گسترش به ۵ شهر جدید</li>
-                          <li>• راه‌اندازی ۳ پروژه اجتماعی</li>
-                          <li>• تشکیل شبکه داوطلبان</li>
-                        </ul>
-                      </div>
-                      <div className="bg-purple-50 p-3 rounded-xl">
-                        <h4 className="font-semibold text-gray-800 mb-1">📈 شاخص‌های موفقیت:</h4>
-                        <ul className="text-sm text-gray-600 space-y-1">
-                          <li>• ۲۰۰۰ عضو فعال</li>
-                          <li>• ۱۰ رویداد موفق</li>
-                          <li>• ۵۰ داوطلب آموزش‌دیده</li>
-                        </ul>
-                      </div>
+                    <div>
+                      <h4 className="text-xl font-bold text-gray-900">توسعه سازمانی</h4>
+                      <p className="text-red-600 font-medium">۱۴۰۴ - ۱۴۰۵</p>
                     </div>
                   </div>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-red-500 rounded-full ml-3"></div>
+                      تشکیل تیم‌های تخصصی در بخش‌های مختلف
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-red-500 rounded-full ml-3"></div>
+                      ایجاد شبکه همکاری با سازمان‌های مرتبط
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-red-500 rounded-full ml-3"></div>
+                      توسعه زیرساخت‌های فناوری و ارتباطات
+                    </li>
+                  </ul>
                 </div>
-              </div>
-              
-              {/* Phase 3 */}
-              <div className="relative flex items-center">
-                <div className="w-1/2 pr-8 text-right">
-                  <div className="backdrop-blur-xl bg-white/90 rounded-3xl p-8 border border-white/50 shadow-3xl hover:shadow-2xl transition-all">
-                    <div className="flex items-center justify-end mb-4">
-                      <div>
-                        <h3 className="text-2xl font-bold text-gray-900 mb-1">فاز سوم: تأثیرگذاری و پایداری</h3>
-                        <p className="text-red-600 font-medium">فروردین ۱۴۰۵ - شهریور ۱۴۰۵</p>
-                      </div>
-                      <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mr-4 shadow-lg">
-                        <Star className="text-red-600" size={24} />
-                      </div>
+                
+                <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-2xl border border-blue-200">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center ml-4">
+                      <span className="text-white font-bold">۲</span>
                     </div>
-                    <p className="text-gray-700 mb-4 leading-relaxed">
-                      مرحله بلوغ و تأثیرگذاری که در آن پروژه به یک نهاد مستقل و پایدار تبدیل شده و الگویی برای سایرین می‌شود.
-                    </p>
-                    <div className="space-y-3">
-                      <div className="bg-yellow-50 p-3 rounded-xl">
-                        <h4 className="font-semibold text-gray-800 mb-1">🌟 اهداف کلیدی:</h4>
-                        <ul className="text-sm text-gray-600 space-y-1">
-                          <li>• همکاری با ۱۰ سازمان بزرگ</li>
-                          <li>• راه‌اندازی صندوق حمایتی</li>
-                          <li>• تأسیس مرکز آموزش رهبری</li>
-                        </ul>
-                      </div>
-                      <div className="bg-orange-50 p-3 rounded-xl">
-                        <h4 className="font-semibold text-gray-800 mb-1">🏆 شاخص‌های موفقیت:</h4>
-                        <ul className="text-sm text-gray-600 space-y-1">
-                          <li>• ۱۰۰۰۰ نفر تحت تأثیر مستقیم</li>
-                          <li>• ۲۰ پروژه اجتماعی فعال</li>
-                          <li>• خودکفایی مالی ۱۰۰٪</li>
-                        </ul>
-                      </div>
+                    <div>
+                      <h4 className="text-xl font-bold text-gray-900">گسترش جغرافیایی</h4>
+                      <p className="text-blue-600 font-medium">۱۴۰۵ - ۱۴۰۶</p>
                     </div>
                   </div>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full ml-3"></div>
+                      حضور فعال در ۱۰ شهر بزرگ کشور
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full ml-3"></div>
+                      تأسیس دفاتر منطقه‌ای و نمایندگی‌ها
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full ml-3"></div>
+                      ایجاد شبکه داوطلبان محلی
+                    </li>
+                  </ul>
                 </div>
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-red-500 rounded-full border-4 border-white shadow-xl z-10"></div>
-                <div className="w-1/2"></div>
+                
+                <div className="bg-gradient-to-r from-green-50 to-green-100 p-6 rounded-2xl border border-green-200">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center ml-4">
+                      <span className="text-white font-bold">۳</span>
+                    </div>
+                    <div>
+                      <h4 className="text-xl font-bold text-gray-900">تأثیرگذاری ملی</h4>
+                      <p className="text-green-600 font-medium">۱۴۰۶ و بعد</p>
+                    </div>
+                  </div>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-green-500 rounded-full ml-3"></div>
+                      تبدیل به الگوی ملی برای سازمان‌های مشابه
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-green-500 rounded-full ml-3"></div>
+                      همکاری با نهادهای دولتی و خصوصی
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-green-500 rounded-full ml-3"></div>
+                      ایجاد تأثیر مثبت در سطح ملی
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
             
-            <div className="text-center mt-16">
-              <div className="backdrop-blur-xl bg-white/90 rounded-3xl p-6 border border-white/50 shadow-3xl max-w-2xl mx-auto">
-                <p className="text-gray-600 italic">
-                  "هر مرحله از این نقشه راه با دقت طراحی شده و قابل تنظیم است. 
-                  ما متعهد به شفافیت کامل در گزارش پیشرفت و دستیابی به اهداف تعریف شده هستیم."
+            {/* Part 2: Operational Plans */}
+            <div className="backdrop-blur-xl bg-white/90 rounded-3xl p-8 border border-white/50 shadow-3xl">
+              <div className="text-center mb-8">
+                <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-700 rounded-full flex items-center justify-center mx-auto mb-4 shadow-xl">
+                  <Users className="text-white" size={32} />
+                </div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-2">برنامه‌های عملیاتی</h3>
+                <p className="text-gray-600">فعالیت‌های روزانه و پروژه‌های کوتاه‌مدت</p>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-gradient-to-r from-purple-50 to-purple-100 p-6 rounded-2xl border border-purple-200">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center ml-4">
+                      <Calendar className="text-white" size={20} />
+                    </div>
+                    <div>
+                      <h4 className="text-xl font-bold text-gray-900">رویدادهای ماهانه</h4>
+                      <p className="text-purple-600 font-medium">هر ماه</p>
+                    </div>
+                  </div>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-purple-500 rounded-full ml-3"></div>
+                      برگزاری کارگاه‌های آموزشی تخصصی
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-purple-500 rounded-full ml-3"></div>
+                      جلسات شبکه‌سازی و تبادل تجربه
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-purple-500 rounded-full ml-3"></div>
+                      رویدادهای فرهنگی و اجتماعی
+                    </li>
+                  </ul>
+                </div>
+                
+                <div className="bg-gradient-to-r from-orange-50 to-orange-100 p-6 rounded-2xl border border-orange-200">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center ml-4">
+                      <Play className="text-white" size={20} />
+                    </div>
+                    <div>
+                      <h4 className="text-xl font-bold text-gray-900">پروژه‌های فعال</h4>
+                      <p className="text-orange-600 font-medium">در حال اجرا</p>
+                    </div>
+                  </div>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-orange-500 rounded-full ml-3"></div>
+                      پلتفرم آموزش آنلاین قهرمانان
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-orange-500 rounded-full ml-3"></div>
+                      شبکه حمایت از کارآفرینان جوان
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-orange-500 rounded-full ml-3"></div>
+                      مرکز مشاوره و راهنمایی تحصیلی
+                    </li>
+                  </ul>
+                </div>
+                
+                <div className="bg-gradient-to-r from-teal-50 to-teal-100 p-6 rounded-2xl border border-teal-200">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center ml-4">
+                      <ArrowLeft className="text-white" size={20} />
+                    </div>
+                    <div>
+                      <h4 className="text-xl font-bold text-gray-900">اهداف کوتاه‌مدت</h4>
+                      <p className="text-teal-600 font-medium">۶ ماه آینده</p>
+                    </div>
+                  </div>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-teal-500 rounded-full ml-3"></div>
+                      جذب ۵۰۰ عضو جدید فعال
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-teal-500 rounded-full ml-3"></div>
+                      راه‌اندازی ۳ پروژه اجتماعی جدید
+                    </li>
+                    <li className="flex items-center">
+                      <div className="w-2 h-2 bg-teal-500 rounded-full ml-3"></div>
+                      برگزاری اولین کنفرانس سالانه
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Progress Tracking */}
+          <div className="mt-16 text-center">
+            <div className="backdrop-blur-xl bg-white/90 rounded-3xl p-8 border border-white/50 shadow-3xl max-w-4xl mx-auto">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">پیشرفت کلی پروژه</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-white text-2xl font-bold">۲۵٪</span>
+                  </div>
+                  <h4 className="font-semibold text-gray-900 mb-2">برنامه‌های استراتژیک</h4>
+                  <p className="text-gray-600 text-sm">در مرحله اولیه اجرا</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-white text-2xl font-bold">۶۰٪</span>
+                  </div>
+                  <h4 className="font-semibold text-gray-900 mb-2">برنامه‌های عملیاتی</h4>
+                  <p className="text-gray-600 text-sm">در حال پیشرفت مناسب</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-white text-2xl font-bold">۴۰٪</span>
+                  </div>
+                  <h4 className="font-semibold text-gray-900 mb-2">پیشرفت کلی</h4>
+                  <p className="text-gray-600 text-sm">بر اساس تمام شاخص‌ها</p>
+                </div>
+              </div>
+              <div className="mt-8 p-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl border border-blue-200">
+                <p className="text-gray-700 italic">
+                  "تمام برنامه‌ها با نظارت مستمر و ارزیابی دوره‌ای اجرا می‌شوند. 
+                  گزارش‌های پیشرفت به‌صورت ماهانه منتشر و با جامعه به اشتراک گذاشته می‌شود."
                 </p>
               </div>
             </div>
@@ -666,16 +752,16 @@ function App() {
                 <div className="flex items-center mb-6">
                   <img 
                     src="https://raw.githubusercontent.com/proxit-git/website/main/logo.png" 
-                    alt="قهرمانان زندگی" 
+                    alt="قهرمانان زندگی بخش" 
                     className="h-12 w-auto ml-4"
                   />
                   <div>
-                    <h3 className="text-2xl font-bold">قهرمانان زندگی</h3>
+                    <h3 className="text-2xl font-bold">قهرمانان زندگی بخش</h3>
                     <p className="text-gray-300">آینده‌ای روشن، امروز آغاز می‌شود</p>
                   </div>
                 </div>
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  ما تیمی از قهرمانان هستیم که برای ساخت آینده‌ای بهتر تلاش می‌کنیم. 
+                  ما تیمی از قهرمانان هستیم که برای ساخت آینده‌ای بهتر در بخش‌های مختلف تلاش می‌کنیم. 
                   هدف ما کمک به افراد برای رسیدن به بهترین نسخه از خودشان است.
                 </p>
                 <div className="flex space-x-4 space-x-reverse">
@@ -722,7 +808,7 @@ function App() {
 
             <div className="border-t border-gray-800 mt-12 pt-8 text-center">
               <p className="text-gray-400">
-                © 1404 قهرمانان زندگی. تمام حقوق محفوظ است.
+                © 1404 قهرمانان زندگی بخش. تمام حقوق محفوظ است.
               </p>
             </div>
           </div>
@@ -741,11 +827,11 @@ function App() {
                 <div className="text-center mb-8">
                   <img 
                     src="https://raw.githubusercontent.com/proxit-git/website/main/logo.png" 
-                    alt="قهرمانان زندگی" 
+                    alt="قهرمانان زندگی بخش" 
                     className="h-16 w-auto mx-auto mb-4 hover:scale-105 transition-transform duration-300"
                   />
                   <h2 className="text-3xl font-bold text-gray-900 mb-2">ورود به حساب</h2>
-                  <p className="text-gray-600">به خانواده قهرمانان زندگی بپیوندید</p>
+                  <p className="text-gray-600">به خانواده قهرمانان زندگی بخش بپیوندید</p>
                 </div>
                 
                 <form className="space-y-6">
@@ -833,11 +919,11 @@ function App() {
                 <div className="text-center mb-8">
                   <img 
                     src="https://raw.githubusercontent.com/proxit-git/website/main/logo.png" 
-                    alt="قهرمانان زندگی" 
+                    alt="قهرمانان زندگی بخش" 
                     className="h-16 w-auto mx-auto mb-4 hover:scale-105 transition-transform duration-300"
                   />
                   <h2 className="text-3xl font-bold text-gray-900 mb-2">ثبت نام</h2>
-                  <p className="text-gray-600">به خانواده قهرمانان زندگی بپیوندید</p>
+                  <p className="text-gray-600">به خانواده قهرمانان زندگی بخش بپیوندید</p>
                 </div>
                 
                 <form className="space-y-6">

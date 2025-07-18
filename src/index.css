@@ -53,6 +53,7 @@ video {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  min-height: 100vh;
 }
 
 /* Ensure video plays on mobile */
@@ -68,18 +69,44 @@ video::-webkit-media-controls-panel {
 @media (max-width: 768px) {
   video {
     height: 100vh;
+    min-height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  video {
+    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     object-fit: cover;
     object-position: center;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
   video {
     height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     object-fit: cover;
     object-position: center;
+  }
+}
+
+/* Hero section responsive */
+@media (max-width: 768px) {
+  #home {
+    height: 100vh;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
   }
 }
 
@@ -116,9 +143,16 @@ button:hover {
     padding-right: 1rem;
   }
   
-  video {
-    height: 100vh;
-    object-position: center;
+  /* Ensure proper spacing on mobile */
+  .hero-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Adjust glass effects for mobile */
+  .backdrop-blur-xl {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
   }
 }
 
