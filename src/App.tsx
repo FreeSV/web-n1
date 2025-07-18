@@ -790,7 +790,38 @@ function App() {
                   <div className="relative">
                     <div className="absolute inset-0 flex items-center">
                       <div className="w-full border-t border-gray-300"></div>
-        </>
+                    </div>
+                    <div className="relative flex justify-center text-sm">
+                      <span className="px-2 bg-white text-gray-500">یا</span>
+                    </div>
+                  </div>
+                  
+                  <div className="text-center">
+                    <p className="text-sm text-gray-600">
+                      حساب کاربری ندارید؟{' '}
+                      <button 
+                        onClick={() => setCurrentPage('signup')}
+                        className="text-red-600 hover:text-red-700 font-medium transition-colors hover:underline"
+                      >
+                        ثبت نام کنید
+                      </button>
+                    </p>
+                  </div>
+                </form>
+                
+                <div className="mt-6 text-center">
+                  <button 
+                    onClick={() => setCurrentPage('home')}
+                    className="text-gray-500 hover:text-gray-700 transition-colors flex items-center justify-center mx-auto"
+                  >
+                    <ArrowLeft size={16} className="ml-2" />
+                    بازگشت به خانه
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       )}
       
       {/* Login Page */}
