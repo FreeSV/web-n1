@@ -199,7 +199,7 @@ function App() {
 
       {/* Conditional Page Rendering */}
       {currentPage === 'home' && (
-        <>
+        <div>
 
       {/* Hero Section with Video Background */}
       <section id="home" className="relative h-screen overflow-hidden">
